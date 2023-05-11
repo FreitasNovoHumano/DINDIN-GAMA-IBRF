@@ -1,0 +1,110 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  max-width:100%;
+}
+
+.titulo {
+  flex-direction:row;
+  padding: 5%;
+  text-align: left;
+  margin-top: 0 auto;
+  margin-left: 0 auto;
+  margin-bottom: 20px;
+  font-family: 'Ubuntu';
+}
+  
+h1{
+  /* font-weight: 700; */
+  font-size: 60px;
+  /* line-height: 69px; */
+  /* identical to box height */
+  /* text-transform: capitalize; */
+  color: #FF4081;
+}
+
+h2{
+  /* Educação financeira é tudo de bom */
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+  color: #555555;
+}
+
+h3{
+  /* Investimento para iniciantes */
+  /* width: 512px;
+  height: 40px;
+  left: 545px;
+  top: 406px; */
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 40px;
+  color: #FF4081;
+}
+
+p{
+  max-width: 1000px;
+
+}
+  section {
+  padding:68px;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  margin-bottom: 20px;
+}
+  
+section div {
+  flex: 1;
+}
+  
+/* section div h3 {
+  margin-top: 0;
+} */
+  
+section div p {
+  margin-top: 0;
+}
+
+h3, p{
+  box-sizing:content-box;
+}
+
+h3,p{
+  padding: 5%;
+}
+  
+button {
+  /* Rectangle 12 */
+  width: 233px;
+  height: 51px;
+  left: 545px;
+  top: 641px;
+  background: #419488;
+  border-radius: 62px;
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
+  
+hr {
+  /* linha */
+  /* position:-ms-page; */
+  width: 85%;
+  height: 5px;
+  /* left: 98px; */
+  top: auto;
+  background: #C4C4C4;
+  margin: 0 auto;
+}
